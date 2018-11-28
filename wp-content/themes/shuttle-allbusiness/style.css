@@ -1,0 +1,475 @@
+/*
+Theme Name:     Shuttle allBusiness
+Theme URI:      https://shuttlethemes.com/features/
+Author:         Shuttle Themes
+Author URI:     https://www.shuttlethemes.com
+Description:    Shuttle allBusiness is the awesome free version of Shuttle Pro. It is really good for professionals. If you want to make a business, for big or small this theme is good for you. So if it is a restaurant, sport, medical, startup, corporate, business, ecommerce, portfolio, freelancers or any type of online agency or firm you will want to use this cool design. It had a multi-purpose design with widget areas in footer, so now even easy to make blog / news website which looks really clean and professional. The theme is responsive, WPML, Polylang, Retina ready, SEO friendly, and is a super design. Shuttle is fast and lightweight and can be used for any type of website, fully compatible with eCommerce plugins like WooCommerce an JigoShop. Whether you are building a website for yourself, your business or are a freelancer building websites for your cliente, Shuttle is the perfect choice. Plus if works with all the major page builders such as Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin and so much more!
+Template:       shuttle
+Version:        1.0.1
+License: GNU    General Public License v2 or later
+License URI:    https://www.gnu.org/licenses/gpl-2.0.html
+Tags:           one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, portfolio, rtl-language-support
+Text Domain:	shuttle-allbusiness
+*/
+
+/* General */
+
+/* Pre Header Style */
+#pre-header {
+	background: #243559;
+	border-bottom: none;
+}
+#pre-header .header-links li a,
+#pre-header-social li,
+#pre-header-social li a {
+	color: #b6b6b6;
+}
+#pre-header .header-links li a {
+	color: #b6b6b6;
+	padding: 12px 14px;
+}
+#pre-header .header-links .menu-hover > a,
+#pre-header .header-links > ul > li > a:hover {
+	color: #fff;
+}
+#pre-header .header-links > ul > li:before {
+	content: "";
+}
+#pre-header .header-links .sub-menu {
+	border: 1px solid #e9e9e9;
+}
+#pre-header .header-links .sub-menu li {
+	border-bottom: 1px solid #e9e9e9;
+}
+#pre-header .header-links .sub-menu li:last-child {
+	border-bottom: none;
+}
+#pre-header .header-links .sub-menu a {
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+
+#pre-header-social li a {
+	border-left: none;
+}
+#pre-header-social li:last-child,
+#pre-header-social li:last-child > a {
+	border-right: none;
+}
+#pre-header-social li a:hover {
+	color: #fff;
+	background: none;
+}
+#pre-header-social li.facebook a:hover {
+	background: none;
+}
+#pre-header-social li.twitter a:hover {
+	background: none;
+}
+#pre-header-social li.google-plus a:hover {
+	background: none;
+}
+#pre-header-social li.instagram a:hover {
+	background: none;
+}
+#pre-header-social li.tumblr a:hover {
+	background: none;
+}
+#pre-header-social li.linkedin a:hover {
+	background: none;
+}
+#pre-header-social li.flickr a:hover {
+	background: none;
+}
+#pre-header-social li.pinterest a:hover {
+	background: none;
+}
+#pre-header-social li.xing a:hover {
+	background: none;
+}
+#pre-header-social li.paypal a:hover {
+	background: none;
+}
+#pre-header-social li.youtube a:hover {
+	background: none;
+}
+#pre-header-social li.vimeo-square a:hover {
+	background: none;
+}
+#pre-header-social li.rss a:hover {
+	background: none;
+}
+
+/* Header Style */
+#header,
+#header-sticky {
+	border: none;
+}
+#header .header-links > ul > li a,
+#header-sticky .header-links > ul > li a {
+	color: #fff;
+	text-transform: none;
+}
+#header .header-links > ul > li > a,
+#header-sticky .header-links > ul > li > a {
+	text-transform: uppercase;
+}
+
+.header-style2 #logo {
+	margin: 30px 0 25px;
+}
+.header-style2 #logo-sticky h1,
+.header-style2 #logo-sticky h2 {
+	text-align: left;
+}
+.header-style2 #logo-sticky h1 {
+	color: #fff;
+}
+.header-style2 #logo-sticky h2 {
+	color: #cacaca;
+}
+
+.header-style2 #header-links,
+.header-style2 #header-sticky {
+	text-align: center;
+	background: #243559;
+	border: none;
+}
+.header-style2 #header .header-links > ul > li > a,
+.header-style2 #header-sticky .header-links > ul > li > a {
+	border: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.header-style2 #header .menu > li.menu-hover > a,
+.header-style2 #header .menu > li.current_page_item > a,
+.header-style2 #header .menu > li.current-menu-ancestor > a,
+.header-style2 #header .menu > li > a:hover,
+.header-style2 #header-sticky .menu > li.menu-hover > a,
+.header-style2 #header-sticky .menu > li.current_page_item > a,
+.header-style2 #header-sticky .menu > li.current-menu-ancestor > a,
+.header-style2 #header-sticky .menu > li > a:hover {
+	background: none;
+	border: none;
+}
+.header-style2 #header-links-inner,
+.header-style2 #header-sticky-links-inner {
+	display: inline-block;
+	vertical-align: top;
+}
+.header-style2 #header .header-links .sub-menu,
+.header-style2 #header-sticky .header-links .sub-menu {
+	text-align: left;
+	text-transform: none;
+	border-color: #e9e9e9;
+}
+.header-style2 #header .sub-menu li,
+.header-style2 #header-sticky .sub-menu li {
+	border-color: #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.header-style2 #header .sub-menu li:last-child,
+.header-style2 #header-sticky .sub-menu li:last-child {
+	border-bottom: none;
+}
+.header-style2 #header .header-links .sub-menu a,
+.header-style2 #header-sticky .header-links .sub-menu li a {
+    padding: 8px 0px;
+}
+
+#header-search a {
+	line-height: 50px;
+	height: auto;
+}
+#header-search .fa-search {
+	line-height: auto
+}
+.header-style2 #header-search a,
+.header-style2 #header-search a:hover,
+.header-style2 #header-search.active a {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Intro Style */
+#intro {
+	text-transform: none;
+	background: #f8f8f8;
+	padding: 20px 10px;
+}
+#intro .page-title,
+#intro #breadcrumbs {
+	color: #3A3939;
+}
+#intro .page-title > span,
+#intro #breadcrumbs-core {
+	background: none;
+	padding: 0;
+}
+#intro #breadcrumbs {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+#intro #breadcrumbs .delimiter {
+	padding: 0px 8px;
+}
+
+/* Call To Action */
+#introaction,
+#outroaction {
+	background: #f8f8f8;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#introaction-core,
+#outroaction-core {
+    background: none;
+}
+
+/* Featured Style */
+.services-builder.style1 {
+	text-align: left;
+	background: none;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.services-builder.style1:hover {
+	-webkit-box-shadow: 0 2px 0 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 0 3px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 2px 0 3px rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 2px 0 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 0 3px rgba(0, 0, 0, 0.1);
+}
+.services-builder.style1 .iconimage img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.services-builder.style1:hover .iconimage img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+/* Blog Posts */
+
+/* Blog Posts - Pagination */
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+	width: 40px;
+	height: 36px;
+	line-height: 36px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+.navigation.pagination .nav-links a.prev,
+.navigation.pagination .nav-links a.next {
+	top: 0;
+}
+.navigation.pagination .nav-links a.prev {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+.navigation.pagination .nav-links a.next {
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Single Post */
+
+/* Single Post Style - Pagination */
+.nav-previous a,
+.nav-next a {
+	color: #13aff0;
+	background: #fff;
+	border: 1px solid #13aff0;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #fff;
+	background: #13aff0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+.nav-previous a {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+.nav-next a {
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Single Post Style - Author Box */
+
+/* Single Post Style - Comments */
+
+/* Footer Style */
+#footer {
+	background: #191919;
+	border: none;
+}
+#footer-core h3 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+#footer-core,
+#footer-core p {
+    color: #9c9c9c;
+}
+
+/* Sub Footer Style */
+#sub-footer {
+	text-align: center;
+	background: #262F36;
+	border-top: none;
+	padding: 22px 0;
+}
+#sub-footer,
+#sub-footer a:hover {
+	color: #fff;
+}
+#sub-footer-core .copyright,
+#post-footer-social,
+#sub-footer-core #footer-menu {
+    display: block;
+}
+
+#post-footer-social ul {
+	float: none;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+#post-footer-social li {
+	display: inline-block;
+}
+#post-footer-social li a {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #4c565e;
+}
+
+#sub-footer-widgets {
+	text-align: left;
+	padding-bottom: 45px;
+}
+#sub-footer-widgets h3 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+#sub-footer-close-core {
+    background: #262F36;
+    top: -62px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+#sub-footer-close-core:hover {
+    background: #13aff0;
+}
+
+/* Sidebar Style */
+#sidebar h3.widget-title {
+	color: #3A3939;
+	font-size: 22px;
+	text-transform: none;
+	padding-bottom: 0;
+}
+#sidebar h3.widget-title:before {
+	display: none;
+}
+
+/* Widgets */
+.widget li a {
+	vertical-align: middle;
+}
+.widget li > a:before {
+	position: relative;
+	top: 14px;
+	content: "";
+	width: 10px;
+	float: left;
+	height: 2px;
+	background: #13aff0;
+	margin-right: 12px;
+}
+
+/* Widgets - Tag Cloud */
+.widget_tag_cloud a {
+    color: inherit;
+    font-size: 14px !important;
+    background: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+#sidebar .widget_tag_cloud a {
+	padding: 5px 23px;
+	margin-bottom: 10px;
+}
+#sidebar .widget_tag_cloud a:hover {
+	color: #fff;
+	background: #243559;
+	border-color: #243559;
+}
+
+#footer .widget_tag_cloud a {
+    font-size: 14px !important;
+	color: #fff;
+	background: #13aff0;
+	border-color: #13aff0;
+	padding: 5px 20px;
+}
+#footer .widget_tag_cloud a:hover {
+	color: #fff;
+	background: #243559;
+	border-color: #243559;
+}
+
+/* Misc */
+#scrollUp:after {
+	background: #243559;
+}
+
